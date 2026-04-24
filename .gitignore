@@ -1,0 +1,8 @@
+node_modules
+.env
+dist
+.vscode
+.DS_Store
+task-manager-backend/node_modules
+task-manager-frontend/node_modules
+task-manager-frontend/dist
