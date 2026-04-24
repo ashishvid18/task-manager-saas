@@ -6,6 +6,7 @@
     "install:all": "npm install --prefix task-manager-backend && npm install --prefix task-manager-frontend",
     "dev:backend": "npm run dev --prefix task-manager-backend",
     "dev:frontend": "npm run dev --prefix task-manager-frontend",
+    "build": "npm run build --prefix task-manager-frontend",
     "start": "npx concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
   }
 }
